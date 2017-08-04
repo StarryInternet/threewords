@@ -1,0 +1,43 @@
+{
+  "name": "threewords",
+  "version": "0.0.1",
+  "description": "Generate three-word identifiers",
+  "keywords": [],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/StarryInternet/threewords"
+  },
+  "bugs": {
+    "url": "https://github.com/StarryInternet/threewords/issues"
+  },
+  "homepage": "https://github.com/StarryInternet/threewords",
+  "devDependencies": {
+    "chai": "3.5.0",
+    "eslint-config-starry": "7.0.0",
+    "mocha": "3.4.2",
+    "nyc": "10.3.2"
+  },
+  "dependencies": {},
+  "license": "MIT",
+  "author": "Kevin Ennis <kennis84@gmail.com> (https://twitter.com/kevincennis)",
+  "contributors": [
+    {
+      "name": "Kevin Ennis"
+    },
+    {
+      "name": "Stephen Murray"
+    }
+  ],
+  "engines": {
+    "node": ">=6.0.0"
+  },
+  "scripts": {
+    "test": "eslint lib/* && nyc mocha test/*",
+    "bench": "node bench.js"
+  },
+  "bin": {
+    "threewords": "./bin/cli.js",
+    "3words": "./bin/cli.js"
+  },
+  "main": "index.js"
+}
