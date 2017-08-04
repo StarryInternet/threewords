@@ -3,7 +3,7 @@ threewords
 
 [![Build Status](https://travis-ci.org/StarryInternet/threewords.svg?branch=master)](https://travis-ci.org/StarryInternet/threewords)
 
-Generate deterministic, human-readable names for things
+Generate deterministic, human-readable names for things.
 
 ### Installing
 
@@ -19,8 +19,8 @@ npm install --save threewords
 const threewords = require('threewords');
 
 // stable and deterministic (same result every time)
-threewords('user@example.com'); // rigid-smothered-lizards
-threewords('user@example.com'); // rigid-smothered-lizards
+threewords('foo@bar.com'); // defeated-ridiculous-family
+threewords('foo@bar.com'); // defeated-ridiculous-family
 ```
 
 #### Generate random:
@@ -29,20 +29,20 @@ threewords('user@example.com'); // rigid-smothered-lizards
 const threewords = require('threewords');
 
 // totally random
-threewords.random(); // fragile-oversize-rocks
-threewords.random(); // fragile-oversize-rocks
+threewords.random(); // obeisant-voiceless-unit
+threewords.random(); // grand-verbal-collaborator
 ```
 
 #### CLI from string:
 
 ```
-threewords user@example.com
-# rigid-smothered-lizards
+threewords foo@bar.com
+# defeated-ridiculous-family
 ```
 
 #### CLI random
 
 ```
 threewords
-# fragile-oversize-rocks
+# obeisant-voiceless-unit
 ```
