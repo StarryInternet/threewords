@@ -1,6 +1,8 @@
 threewords
 ===
 
+[![Build Status](https://travis-ci.org/StarryInternet/threewords.svg?branch=master)](https://travis-ci.org/StarryInternet/threewords)
+
 Generate deterministic, human-readable names for things
 
 ### Installing
